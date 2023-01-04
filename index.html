@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Juliana</title>
+
+    <!-- CSS Normalize -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/languages.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/skills.css">
+
+
+    
+</head>
+<body>
+    <main class="main">
+        <header>
+            <img src="img/ju-photo.png" alt="Foto de Perfil" class="photo profile.photo">
+            <h1 class="title">
+                Olá, eu sou <br> 
+                <span class="profile.name">Juliana Biazioli</span>
+            </h1>
+           
+            <div class="information">
+                <p class="job"><span class="profile.job">Developer</span></p>
+                <p class="location"><span class="profile.location">São Paulo - SP</span></p>
+                <p class="phone">
+                    <a href="tel:11 965572807" class="profile.phone">(11) 96557-2807</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:juliana.biazioli9@gmail.com" class="profile.email">juliana.biazioli9@gmail.com</a>
+                </p>
+            </div>
+    
+        </header>
+
+        
+
+        <section class="accordion">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+            
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3 class="title">Hard Skills</h3>
+                        <ul> 
+                            <li>                      
+                                <img src="/tools/js.svg" alt="js">
+                            </li>
+                            <li>                      
+                                <img src="/tools/html.svg" alt="html">
+                            </li>
+                            <li>                      
+                                <img src="/tools/css.svg" alt="css">
+                            </li>
+                            <li>                      
+                                <img src="/tools/nodejs.svg" alt="nodejs">
+                            </li>
+                            <li>                      
+                                <img src="/tools/git.svg" alt="git">
+                            </li>
+                            <li>                      
+                                <img src="/tools/github.svg" alt="github">
+                            </li>
+                            <li>                      
+                                <img src="/tools/python.svg" alt="python">
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <section class="personal">
+                        <h3 class="title">Soft Skills</h3>
+                        <ul> 
+                            <li>Organização</li>
+                            <li>Comunicação</li>
+                            <li>Liderança</li>
+                            <li>Trabalho em equipe</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="accordion">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages"> 
+                    <li>Português</li>
+                    <li>Inglês</li>
+                    <li>Francês</li>
+                    <li>Italiano</li>
+                </ul>
+            </div>
+           
+        </section>
+
+        <section class="accordion">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio"> 
+                    <li>
+                        <h3 class="title github">Clonando Netflix</h3>
+                        <a href="https://github.com/Ju-biazioli/netflix-clone-page" target="_blank">https://github.com/Ju-biazioli/netflix-clone-page</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Portfolio Juliana Biazioli</h3>
+                        <a href="www.google.com" target="_blank">ww.google.com</a>
+                    </li>
+                    
+                </ul>
+            </div>
+           
+        </section>
+
+        <section class="accordion">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+            
+            <div class="content">
+                <ul class="experience"> 
+                    <li>
+                        <h3 class="title">Changing Carrer</h3>
+                        <span class="period">Fev 2022 - atual</span>
+                        <p> 
+                            Eu estou em transição de carreira para a área de TI, me desenvolvendo para ser Front-end Developer Web.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="title">Analista de Crédito</h3>
+                        <span class="period">Fev 2016 - Fev 2022</span>
+                        <p> 
+                            Enquanto trabalhava nessa área aprimorei minhas habilidades de solução de problemas, tomada de decisões, liderança, comunicação, trabalho em equipe, criatividade e organização, também participei ativamente dos projetos de otimização por ter mais proximidade com a área de tecnologia.
+                        </p>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+
+
+    </main>
+
+    
+    <script src="/js/accordion.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
